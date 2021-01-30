@@ -1,0 +1,135 @@
+/* LAYOUT */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* LAYOUT */
+
+/* HEADER */
+
+nav {
+  height: 90px;
+  line-height: 90px;
+}
+
+nav div.bg-grey {
+  background-color: #F4F9FD;
+
+  border-bottom: 1px solid #000;
+}
+
+nav ul  {
+  display: inline;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+
+}
+
+.nav-right {
+  float: right;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.bg-jumbo {
+  background: url("../img/jumbotron.png") no-repeat;
+  background-size: 100% 100%;
+  height: 1000px;
+
+}
+/* HEADER */
+
+/* UTILITY */
+/* COLOR */
+.maintext-color {
+  color: #33475b;
+}
+
+.btn-color-white {
+  color: #fff;
+}
+
+.btn-color-orange {
+  color: #ff7a59;
+}
+.btn-bg-white {
+  background-color: #fff;
+}
+
+.btn-bg-orange {
+  background-color: #ff7a59;
+}
+
+/* COLOR */
+
+/* MARGIN */
+
+.mlr-1 {
+  margin: 0 20px;
+}
+
+/* MARGIN */
+
+
+/* PADDING */
+.pl-1 {
+  padding-left: 20px;
+}
+
+.pr-1 {
+  padding-right: 20px;
+}
+
+.p-1 {
+  padding: 9px;
+}
+
+ul.nav-right li a {
+  padding-left: 15px;
+}
+/* PADDING */
+
+/* BORDER */
+.br-1 {
+  border-right: 1px solid #000;
+}
+/* BORDER */
+
+/* ICONS */
+.fa-search {
+  color: #00a4bd;
+}
+
+/* ICONS */
+
+/* BUTTON */
+.btn {
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+
+}
+
+/* BUTTON */
+
+.select:after {
+  content: "\25bc";
+  padding-left: 15px;
+}
