@@ -36,7 +36,7 @@ nav ul li {
 
 }
 
-nav ul li a {
+nav ul li a, a {
   text-decoration: none;
 
 }
@@ -50,16 +50,36 @@ img {
 }
 
 .bg-jumbo {
-  background: url("../img/jumbotron.png") no-repeat;
+  background: url("../img/jumbotron.png") no-repeat center;
   background-size: 100% 100%;
   height: 1000px;
 
 }
+
+.jumbo-text {
+  width: 40%;
+}
+
+h1 {
+  font-size: 45px;
+  padding-top: 100px;
+
+}
+
+.line {
+  background-color: #AFEBE4;
+  height: 120px;
+  border-top: 4px solid #33475b;
+  border-bottom: 4px solid #33475b;
+  margin-top: -119px;
+}
+
+
 /* HEADER */
 
 /* UTILITY */
 /* COLOR */
-.maintext-color {
+.M-color {
   color: #33475b;
 }
 
@@ -102,6 +122,15 @@ img {
   padding: 9px;
 }
 
+.p-2 {
+  padding: 20px 30px;
+}
+
+.p-3 {
+  padding: 70px 0;
+
+}
+
 ul.nav-right li a {
   padding-left: 15px;
 }
@@ -133,3 +162,12 @@ ul.nav-right li a {
   content: "\25bc";
   padding-left: 15px;
 }
+
+/* FONT */
+
+.F-1 {
+  font-size: 20px;
+}
+
+
+/* FONT */
