@@ -8,9 +8,34 @@
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
+
+/* CLEARFIX */
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+/* CLEARFIX */
+
+[class^=col-] {
+  float: left;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-33 {
+  width: calc(100% / 3);
+}
+
 /* LAYOUT */
 
 /* HEADER */
@@ -77,6 +102,32 @@ h1 {
 
 /* HEADER */
 
+/* MAIN */
+
+section.Introduction img {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+section.Introduction p {
+  text-align: center;
+  padding: 0 210px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+
+
+/* MAIN */
+
 /* UTILITY */
 /* COLOR */
 .M-color {
@@ -96,6 +147,10 @@ h1 {
 
 .btn-bg-orange {
   background-color: #ff7a59;
+}
+
+.Introduction {
+  background-color: #f5f8fa;
 }
 
 /* COLOR */
@@ -169,5 +224,7 @@ ul.nav-right li a {
   font-size: 20px;
 }
 
-
+.F-2 {
+  font-size: 13px;
+}
 /* FONT */
