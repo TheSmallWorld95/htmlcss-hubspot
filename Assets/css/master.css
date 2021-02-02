@@ -301,9 +301,38 @@ div.col-60 img.profile-image {
 
 /* SECTION THREE */
 
-
-
 /* MAIN */
+
+/* FOOTER */
+
+footer {
+  background-color: #32495b;
+}
+
+footer h5 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+h5 + ul li {
+  padding-top: 15px;
+  list-style: none;
+}
+
+ul.social-link {
+  padding-top: 20px;
+}
+
+ul.social-link i {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+/* FOOTER */
+
 
 /* UTILITY */
 /* COLOR */
@@ -451,6 +480,12 @@ ul.nav-right li a {
 
 }
 
+.btn-support {
+  border: 1px solid #f5f8fa;
+  background-color: #f5f8fa;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
 /* BUTTON */
 
 .select:after {
